@@ -1,6 +1,6 @@
 h2{
     text-align: center;
-    color: rgb(174, 226, 248);
+    color: rgb(43, 47, 116);
 }
 #add{
     background-color: aquamarine;
@@ -14,7 +14,8 @@ h2{
 }
 
 .table td{
-    color: rgb(255, 255, 255);   
+    color: rgb(3, 56, 40);   
+    font-weight: 500;
 }
 
 #edit{
