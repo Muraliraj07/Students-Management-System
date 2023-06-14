@@ -1,0 +1,34 @@
+h2{
+    text-align: center;
+    color: rgb(174, 226, 248);
+}
+#add{
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+#add:hover{
+    box-shadow: 0 0px 10px 5px rgba(22, 234, 192, 0.532);}
+.table th{
+    color: rgb(7, 9, 2);
+    font-size: 22px;
+}
+
+.table td{
+    color: rgb(255, 255, 255);   
+}
+
+#edit{
+    background-color: rgb(190, 114, 0);
+    color: rgb(6, 6, 6);
+}
+#delete{
+    background-color: rgb(173, 41, 15);
+    color: rgb(6, 6, 6);
+}
+
+#edit:hover{
+    color: rgb(255, 255, 255);
+}
+#delete:hover{
+    color: rgb(255, 255, 255);
+}

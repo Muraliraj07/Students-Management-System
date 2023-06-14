@@ -1,0 +1,30 @@
+<div class="container" style="max-width:300px">
+    <h2>Add Student Form</h2>
+    <form>
+        <!-- when we perfom binding operations need to import FormsModule in app.module.ts -->
+        <p>
+            <label>Reg No:</label>
+            <input type="text" name="regno" [(ngModel)]="userObj.regno" class="form-control">
+        </p>
+        <p>
+            <label>First Name:</label>
+            <input type="text" name="fname" [(ngModel)]="userObj.fname" class="form-control">
+        </p>
+        <p>
+            <label>Last Name:</label>
+            <input type="text" name="lname" [(ngModel)]="userObj.lname" class="form-control">
+        </p>
+        <p>
+            <label>Email ID:</label>
+            <input type="text" name="email" [(ngModel)]="userObj.email" class="form-control">
+        </p>
+        <p>
+            <label>Mobile:</label>
+            <input type="text" name="mob" [(ngModel)]="userObj.mobile" class="form-control">
+        </p>
+        <p>
+            <input type="submit" value="Add Student" class="btn" id="add" (click)="addEmployee(userObj)">&nbsp;
+            <input type="button" value="List Data" class="btn " id="list" routerLink="/list">
+        </p>
+    </form>
+</div>

@@ -1,0 +1,14 @@
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: azure;
+}
+form{
+    /* border: 1px solid black; */
+    padding: 30px;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px 10px rgb(66, 140, 159, 0.3);
+    background-color: rgb(99, 164, 135);
+}
